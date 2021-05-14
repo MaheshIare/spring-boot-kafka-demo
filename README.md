@@ -40,12 +40,12 @@ To run the kafka instance
 
 You might encounter with below issues while running the above commands:
 
-1. If any of the above command results in this error **Classpath empty, please do a 'gradle jarAll'**, then you need to do gradle build before running the Zookeeper/Kafka servers. You can download latest gradle distribution from here **[Gradle](https://gradle.org/releases/)**, once downloaded run the below command to generate the classpath for kafka distribution downloaded above.
+1. If any of the above command results in this error '**Classpath empty, please do a 'gradle jarAll'**', then you need to do gradle build before running the Zookeeper/Kafka servers. You can download latest gradle distribution from here **[Gradle](https://gradle.org/releases/)**, once downloaded run the below command to generate the classpath for kafka distribution downloaded above.
 
 ```bash
 gradle clean jar
 ```
-2. If any of the above command results in this error **The input line is too long**, then you can follow the steps mentioned here **[Issue starting Kafka server](https://stackoverflow.com/questions/48834927/the-input-line-is-too-long-when-starting-kafka)**. And this issue can occur only in Windows machine because of the limitation of characters in cmd/powershell appplications.
+2. If any of the above command results in this error '**The input line is too long**', then you can follow the steps mentioned here **[Issue starting Kafka/Zookeeper server](https://stackoverflow.com/questions/48834927/the-input-line-is-too-long-when-starting-kafka)**. And this issue can occur only in Windows machine because of the limitation of characters in cmd/powershell appplications.
 
 ## Dependency information
 
